@@ -5,6 +5,13 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url("./images/Ghost.gif") no-repeat center;
+  z-index: 99999;
+}
 html {
   scroll-behavior: smooth;
 }

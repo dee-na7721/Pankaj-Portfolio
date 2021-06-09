@@ -1,3 +1,8 @@
+var preloader = document.getElementById("loader");
+function loaderFunction() {
+  preloader.style.display = "none";
+}
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 20) {
