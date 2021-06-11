@@ -19,7 +19,7 @@ html {
 /* navbar styling */
 .navbar {
   position: fixed;
-  padding: 30px 0;
+  padding: 15px 0;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
@@ -104,15 +104,18 @@ html {
 /* home section styling */
 .home {
   display: flex;
-  background-image: url("./images/pkc.png");
+  background: url("images/pkc6.png") repeat center;
   height: 100vh;
   color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
 }
 
 .home .max-width {
-  margin: auto 0 auto 40px;
+  width: 100%;
+  display: flex;
 }
 
 .home .home-content .text-1 {
