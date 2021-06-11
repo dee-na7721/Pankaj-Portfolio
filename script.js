@@ -1,6 +1,24 @@
+// preloader
 var preloader = document.getElementById("loader");
 function loaderFunction() {
   preloader.style.display = "none";
+}
+
+// Email
+
+function sendEmail() {
+  console.log("asd");
+  var tempParams = {
+    from_name: document.getElementById("name").value,
+    from_email: document.getElementById("email").value,
+    // subject: document.getElementById("subject"),
+    message: document.getElementById("message").value,
+  };
+
+  emailjs.send("gmail", "template_2p5vq5r", tempParams).then(function (res) {
+    console.log("success", res.status);
+    alert("Your message was successfully sent to Pankaj");
+  });
 }
 
 $(document).ready(function () {

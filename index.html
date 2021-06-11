@@ -12,20 +12,30 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_KXPXj9YexbDMOd9NURvCy");
+      })();
+    </script>
   </head>
   <body onload="loaderFunction()">
-    <div id="loader">
-
-    </div>
+    <div id="loader"></div>
     <div class="scroll-up-btn">
       <i class="fas fa-angle-up"></i>
     </div>
@@ -54,7 +64,9 @@
         <div class="home-content">
           <div class="text-1">Hello, my name is</div>
           <div class="text-2">Pankaj KC</div>
-          <div class="text-3">And I'm a <span class="typing">Senior IT Engineer</span></div>
+          <div class="text-3">
+            And I'm a <span class="typing">Senior IT Engineer</span>
+          </div>
           <a href="">Hire Me</a>
         </div>
       </div>
@@ -73,7 +85,8 @@
               I am Pankaj and I'm a <span> Senior IT Engineer</span>
             </div>
             <p>
-              I'm an IT guy. Started as an IT intern 3 years ago and today I'm a Senior IT Engineer.
+              I'm an IT guy. Started as an IT intern 3 years ago and today I'm a
+              Senior IT Engineer.
             </p>
             <a href="#">Download CV</a>
           </div>
@@ -88,7 +101,7 @@
         <div class="serv-content">
           <div class="card">
             <div class="box">
-             <i class="fab fa-aws"></i>
+              <i class="fab fa-aws"></i>
               <div class="text">AWS</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
@@ -100,8 +113,8 @@
           </div>
           <div class="card">
             <div class="box">
-             <i class="fas fa-terminal"></i>
-             
+              <i class="fas fa-terminal"></i>
+
               <div class="text">Scripting</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
@@ -135,7 +148,12 @@
           <div class="column left">
             <div class="text">My creative skills & experiences</div>
             <p>
-              Experienced Information Technology Engineer with a demonstrated history of working in the computer software industry. Skilled in Amazon Web Service(Cloud Computing), Python (Programming Language), Bash Scripting, Linux System Administration, Public Speaking, and Management. Strong engineering professional with a Bsc. CSIT focused on Computer Science from Tribhuwan University.
+              Experienced In.formation Technology Engineer with a demonstrated
+              history of working in the computer software industry. Skilled in
+              Amazon Web Service(Cloud Computing), Python (Programming
+              Language), Bash Scripting, Linux System Administration, Public
+              Speaking, and Management. Strong engineering professional with a
+              Bsc. CSIT focused on Computer Science from Tribhuwan University.
             </p>
             <a href="#">Read more</a>
           </div>
@@ -234,7 +252,7 @@
               <p>IT engineer</p>
             </div>
           </div>
-          
+
           <div class="card">
             <div class="box">
               <img src="./images/man.jpg" alt="" />
@@ -274,76 +292,102 @@
         <div class="contact-content">
           <div class="column left">
             <div class="text">Get in Touch</div>
-            <p>
-              You can contact me through my email.
-              <div class="icons">
-                <div class="row">
-                  <i class="fas fa-user"></i>
-                  <div class="info">
-                    <div class="head">Name</div>
-                    <div class="sub-title">Pankaj KC</div>
-                  </div>
+            <p>You can contact me through my email.</p>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Pankaj KC</div>
                 </div>
-                <div class="row">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div class="info">
-                    <div class="head">Address</div>
-                    <div class="sub-title">Dhobighat, Lalitpur, Nepal</div>
-                  </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Dhobighat, Lalitpur, Nepal</div>
                 </div>
-                <div class="row">
-                  <i class="fas fa-envelope"></i>
-                  <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">bickeykc@gmail.com</div>
-                  </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">bickeykc@gmail.com</div>
                 </div>
-                <div class="row">
-                  <i class="fab fa-linkedin-in"></i>
-                  <div class="info">
-                    <div class="head">Linked In</div>
-                    <div class="sub-title">linkedin.com/in/pankaj-kc-1158b8102</div>
+              </div>
+              <div class="row">
+                <i class="fab fa-linkedin-in"></i>
+                <div class="info">
+                  <div class="head">Linked In</div>
+                  <div class="sub-title">
+                    linkedin.com/in/pankaj-kc-1158b8102
                   </div>
                 </div>
               </div>
-            </p>
+            </div>
           </div>
           <div class="column right">
-            <div class="text">Message  me</div>
-            <form action="#">
+            <div class="text">Message me</div>
+            <div class="form">
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Name" required>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    required
+                  />
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Email" required>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
                 </div>
               </div>
-                <div class="field">
-                  <input type="text" placeholder="Subject" required>
-                </div>
-                <div class="field textarea">
-                  <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
-                </div>
-                <div class="button">
-                  <button type="submit">Send message</button>
-                </div>
-             
-              
-            </form>
-
+              <div class="field">
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  name="message"
+                  id="message"
+                  placeholder="Describe project.."
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="submit" onclick="sendEmail()">
+                  Send message
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- footer section -->
+    <footer>
+      <span
+        >Created by <a href="#">Deena Sitikhu</a> |
+        <span class="far fa-copyright"></span>2021 All rights reserved.</span
+      >
+    </footer>
 
-<!-- footer section -->
-<footer>
-  <span>Created by <a href="#">Deena Sitikhu</a> | <span class="far fa-copyright"></span>2021 All rights reserved.</span>
-</footer>
-    
     <script src="script.js"></script>
-  
   </body>
 </html>
